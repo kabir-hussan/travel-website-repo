@@ -21,6 +21,7 @@ body {
     align-items: center;
 }
 
+/* common style */
 .primary-title {
     color: #131318;
     font-size: 2.5rem;
@@ -52,7 +53,7 @@ body {
 }
 
 .list {
-    color:  #424247;
+    color: #424247;
     font-size: 18px;
     font-weight: 400;
 }
@@ -127,6 +128,7 @@ body {
     border: 0;
 }
 
+/* common-style */
 .btn-primary {
     margin-right: 30px;
     border: 0;
@@ -149,6 +151,40 @@ body {
     font-weight: 700;
     background-color: #FF5400;
     border: 0;
+}
+
+/* Section-one-styles is here */
+.s1-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.s1-content{
+    margin-bottom: 30px;
+    width: 45%;
+}
+.s1-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 24px 5px;
+
+}
+
+.s1-content ul{
+  padding-left: 30px;
+  width: 80%;
+}
+
+.s1-content ul li{
+    padding: 10px 0px;
+}
+
+/* section-one-img  */
+.s1-img img{
+    width: 100%;
+    height: auto;
 }
 
 /* Mobile responsive styles */
@@ -191,5 +227,18 @@ body {
         text-align: left;
     }
 
+    /* section-one-mobile responsiveness */
+    .s1-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        margin: 100px auto;
+        /* margin: auto; */
+    }
 
+    .s1-content {
+        width: 96%;
+    }
 }
