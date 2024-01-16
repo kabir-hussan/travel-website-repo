@@ -154,16 +154,18 @@ body {
 }
 
 /* Section-one-styles is here */
-.s1-container{
+.s1-container {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.s1-content{
+
+.s1-content {
     margin-bottom: 30px;
     width: 45%;
 }
+
 .s1-description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
@@ -172,20 +174,79 @@ body {
 
 }
 
-.s1-content ul{
-  padding-left: 30px;
-  width: 80%;
+.s1-content ul {
+    padding-left: 30px;
+    width: 80%;
 }
 
-.s1-content ul li{
+.s1-content ul li {
     padding: 10px 0px;
 }
 
 /* section-one-img  */
-.s1-img img{
+.s1-img img {
     width: 100%;
     height: auto;
 }
+
+/* footer section  styles*/
+/* upper portion styles */
+
+.footer-container{
+    margin-top: 150px;
+
+}
+.upper-footer {
+    width: 60%;
+    margin: auto;
+    
+}
+
+.icon-hero {
+    padding: 10px 20px;
+}
+
+.footer-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.icon-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.icon-container ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+/* lower portion styles */
+
+.lower-footer {
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-content hr{
+    background: rgba(19, 19, 24, 0.10);
+    width: 50%;
+    margin: auto;
+}
+
+
+
 
 /* Mobile responsive styles */
 @media screen and (max-width:600px) {
@@ -240,5 +301,12 @@ body {
 
     .s1-content {
         width: 96%;
+    }
+
+    /* footer responsive styles */
+    .upper-footer {
+        width: 95%;
+        margin:0 auto;
+        
     }
 }
