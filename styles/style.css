@@ -283,6 +283,46 @@ body {
 
 
 /* section three styles are here */
+.s3-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.s3-layout-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s3-item-1 {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.s3-item-2 {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.s3-item-3 {
+    width: 45%;
+    margin: 50px auto;
+}
+
+.s3-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.common-icon-style {
+    font-size: 2rem;
+    padding: 20px;
+    color: rgb(155, 98, 29);
+}
 
 /* section four all styles are here */
 .s4-container {
@@ -507,7 +547,30 @@ body {
     }
 
     /* section three responsiveness */
+    .s3-layout-container {
+       flex-direction: column;
+    }
 
+    .s3-content {
+        width: 80%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .s3-item-1 {
+        width: 80%;
+        margin: 30px auto;
+    }
+    .s3-item-2 {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .s3-item-3{
+        width: 80%;
+        margin: 30px auto;
+        margin-bottom: 50px;
+    }
     /* section four responsive styles */
 
     .s4-container {
