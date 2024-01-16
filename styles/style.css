@@ -282,11 +282,76 @@ body {
 }
 
 
+/* section four all styles are here */
+.s4-container {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.s4-newsletter-container {
+    width: 45%;
+    padding: 40px;
+}
+
+.s4-form-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.s4-form-container input {
+    padding: 40px 10px;
+    border: 0;
+}
+
+.s4-img-container {
+    width: 45%;
+    height: auto;
+    position: relative;
+    
+}
+.s4-img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.s4-img-text {
+    border-radius: 16px;
+    background-color: #FF5400;
+    border: 0;
+    padding: 10px;
+    width: 35%;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    transform: rotate(-28deg);
+}
+
+.s4-img-small-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.s4-img-discount {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+
 /* footer section  styles*/
 /* upper portion styles */
 
 .footer-container {
     margin-top: 100px;
+
 
 }
 
@@ -325,6 +390,7 @@ body {
 .icon-container ul li {
     list-style: none;
     padding: 20px;
+    font-size: 1.5em;
 }
 
 /* lower portion styles */
@@ -349,6 +415,7 @@ body {
     body {
         margin: 0 20px;
     }
+ 
 
     .banner-content .text-content {
         width: 100%;
@@ -408,39 +475,70 @@ body {
     }
 
     .item-1 {
-        grid-column: 1/ 12;
+        grid-column: 1/ 13;
     }
 
     .item-2 {
-        grid-column: 1/12;
+        grid-column: 1/13;
     }
 
     .item-3 {
-        grid-column: 1/12;
+        grid-column: 1/13;
     }
 
     .item-4 {
-        grid-column: 1/12;
+        grid-column: 1/13;
     }
 
     .item-5 {
-        grid-column: 1/12;
+        grid-column: 1/13;
     }
 
     .item-6 {
-        grid-column: 1/12;
+        grid-column: 1/13;
     }
 
     .item-7 {
-        grid-column: 1/12;
+        grid-column: 1/13;
     }
 
+
+    /* section four responsive styles */
+
+    .s4-container {
+        flex-direction: column;
+      
+    }
+    .s4-newsletter-container {
+        width:90%;
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+    .s4-img-container {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        
+    }
+
+    .s4-img-text {
+        border-radius: 16px;
+        background-color: #FF5400;
+        border: 0;
+        padding: 10px;
+        width: 45%;
+        height: 23%;
+        position: absolute;
+        bottom: 43px;
+        right: 3px;
+        transform: rotate(-26deg);
+    }
 
     /* footer responsive styles */
     .upper-footer {
         width: 95%;
         margin: 0 auto;
-
     }
 
 
