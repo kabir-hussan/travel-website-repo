@@ -270,24 +270,30 @@ body {
     grid-column-start: 10;
     grid-column-end: 13;
 }
+
 .item-6 {
     grid-column-start: 1;
     grid-column-end: 6;
 }
+
 .item-7 {
     grid-column-start: 6;
     grid-column-end: 13;
 }
 
+
+/* section three styles are here */
+
 /* section four all styles are here */
 .s4-container {
     display: flex;
     justify-content: space-between;
-    
+
     align-items: center;
     width: 100%;
     margin: 0 auto;
 }
+
 .s4-newsletter-container {
     width: 40%;
     padding: 40px;
@@ -298,19 +304,21 @@ body {
     flex-direction: column;
 
 }
+
 .s4-form-container input {
     padding: 30px 10px;
     border: 0;
-    
+
 }
 
 .s4-img-container {
     width: 45%;
     height: auto;
     position: relative;
-    
+
 }
-.s4-img-container img{
+
+.s4-img-container img {
     width: 100%;
     height: auto;
 }
@@ -407,12 +415,13 @@ body {
 @media screen and (max-width: 600px) {
 
     body {
-      margin: 0 40px;
+        margin: 0 40px;
     }
-    
-    .nav-item{
+
+    .nav-item {
         display: none;
     }
+
     .banner-content .text-content {
         width: 100%;
         margin-bottom: -40px;
@@ -497,24 +506,26 @@ body {
         grid-column: 1/13;
     }
 
+    /* section three responsiveness */
 
     /* section four responsive styles */
 
     .s4-container {
         flex-direction: column;
-      
+
     }
+
     .s4-newsletter-container {
-          width: 90%;
+        width: 100%;
         margin: 0 auto;
-        padding: 40px;
+        padding: 5px;
     }
 
     .s4-img-container {
         width: 100%;
         /* height: auto; */
         margin: 30px auto;
-        
+
     }
 
     .s4-img-text {
@@ -528,10 +539,24 @@ body {
 
     /* footer responsive styles */
     .upper-footer {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
     }
+
     .lower-footer {
         padding: 60px;
+    }
+
+    .footer-container .primary-title {
+        font-size: 1.5rem;
+
+    }
+
+    .footer-container .nav-colorful-header {
+        font-size: 1.5rem;
+    }
+
+    .icon-hero {
+        padding: 10px;
     }
 }
