@@ -45,6 +45,9 @@ body {
 .menu-bar {
     font-size: 2rem;
 }
+.nav-item > ul> .menu-bar{
+    display: none;
+}
 
 .nav-item ul {
     display: flex;
@@ -465,6 +468,9 @@ body {
 }
 
 
+
+/* Follow Here */
+/* I have added responsive part here */
 /* Mobile responsive styles */
 @media screen and (max-width: 600px) {
 
@@ -479,6 +485,10 @@ body {
 
     .nav-item>ul>li {
         display: none;
+    }
+
+    .nav-item > ul> .menu-bar{
+        display: inline;
     }
 
     .nav-header .primary-title,
