@@ -290,6 +290,8 @@ body {
 }
 
 
+
+
 /* section three styles are here */
 .s3-content {
     width: 60%;
@@ -341,8 +343,94 @@ body {
     color: rgb(155, 98, 29);
 }
 
-/* section four all styles are here */
+
+/* Extra section style (section Four) */
+
 .s4-container {
+    width: 100%;
+    margin: 100px auto;
+}
+.s4-title-content{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.s4-car-layout{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 30px;
+  /* margin: 0 auto; */
+  background-color: #424247;
+  border: 2px solid sandybrown;
+  /* width: 100%; */
+
+}
+
+
+
+.s4-car-layout img{
+    width:100%;
+    height: auto;
+    display: block;
+
+}
+.car-1-item{
+    grid-column: 1/7;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.car-2-item{
+    grid-column: 7/13;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.car-3-item{
+    grid-column: 1/7;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.car-4-item{
+    grid-column: 7/13;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.car-5-item{
+    grid-column: 1/7;
+    width: 100%;
+    margin: 20px auto;
+}
+.car-6-item{
+    grid-column: 7/13;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.s4-car-layout .car-item-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+/* .s4-car-layout .car-item-btn{
+    background: #FF5400;
+    padding: 20px 50px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+} */
+
+
+
+/* section four all styles are here */
+.s5-container {
     display: flex;
     justify-content: space-between;
 
@@ -351,36 +439,36 @@ body {
     margin: 0 auto;
 }
 
-.s4-newsletter-container {
+.s5-newsletter-container {
     width: 40%;
     padding: 40px;
 }
 
-.s4-form-container {
+.s5-form-container {
     display: flex;
     flex-direction: column;
 
 }
 
-.s4-form-container input {
+.s5-form-container input {
     padding: 30px 10px;
     border: 0;
 
 }
 
-.s4-img-container {
+.s5-img-container {
     width: 45%;
     height: auto;
     position: relative;
 
 }
 
-.s4-img-container img {
+.s5-img-container img {
     width: 100%;
     height: auto;
 }
 
-.s4-img-text {
+.s5-img-text {
     border-radius: 16px;
     background-color: #FF5400;
     border: 0;
@@ -393,14 +481,14 @@ body {
     transform: rotate(-28deg);
 }
 
-.s4-img-small-title {
+.s5-img-small-title {
     color: #FFF;
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
 }
 
-.s4-img-discount {
+.s5-img-discount {
     color: #FFF;
     font-size: 1.5rem;
     font-weight: 800;
@@ -608,27 +696,83 @@ body {
         margin-bottom: 50px;
     }
 
+    /* My extra section responsiveness (section four) */
+
+
+    .s4-title-content{
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+
+    .s4-car-layout img{
+        max-width:90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    
+    }
+
+    .s4-car-layout{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        row-gap: 30px;
+      
+
+      }
+
+      .car-1-item{
+        grid-column: 1/13;
+        
+    }
+    
+    .car-2-item{
+        grid-column: 1/13;
+    }
+    
+    .car-3-item{
+        grid-column: 1/13;
+    }
+    
+    .car-4-item{
+        grid-column: 1/13;
+    }
+    
+    .car-5-item{
+        grid-column: 1/13;
+    }
+    .car-6-item{
+        grid-column: 1/13;
+    }
+
+
+
+
+
+
+
+
     /* section four responsive styles */
 
-    .s4-container {
+    .s5-container {
         flex-direction: column;
 
     }
 
-    .s4-newsletter-container {
+    .s5-newsletter-container {
         width: 100%;
         margin: 0 auto;
         padding: 5px;
     }
 
-    .s4-img-container {
+    .s5-img-container {
         width: 100%;
         /* height: auto; */
         margin: 30px auto;
 
     }
 
-    .s4-img-text {
+    .s5-img-text {
         /* height: auto; */
         height: 22%;
         width: 55%;
