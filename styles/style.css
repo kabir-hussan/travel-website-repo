@@ -79,6 +79,15 @@ body {
     font-weight: 700;
 }
 
+.nav-ul-hover >li>a:hover{
+    background-color:  #006639;
+    font-size: 1rem;
+    color: #FFF;
+    padding: 10px 20px;
+    font-weight: 700;
+   transition: .5s;
+}
+
 /* banner section related styles */
 .banner {
     margin-top: 50px;
@@ -363,8 +372,8 @@ body {
   grid-template-rows: repeat(3,1fr);
   gap: 30px;
   /* margin: 0 auto; */
-  background-color: #424247;
-  border: 2px solid sandybrown;
+  /* background-color: #424247;
+  border: 2px solid sandybrown; */
   /* width: 100%; */
 
 }
@@ -381,51 +390,69 @@ body {
     grid-column: 1/7;
     width: 100%;
     margin: 20px auto;
+    text-align: center;
 }
 
 .car-2-item{
     grid-column: 7/13;
     width: 100%;
     margin: 20px auto;
+    text-align: center;
 }
 
 .car-3-item{
     grid-column: 1/7;
     width: 100%;
     margin: 20px auto;
+    text-align: center;
 }
 
 .car-4-item{
     grid-column: 7/13;
     width: 100%;
     margin: 20px auto;
+    text-align: center;
 }
 
 .car-5-item{
     grid-column: 1/7;
     width: 100%;
     margin: 20px auto;
+    text-align: center;
 }
 .car-6-item{
     grid-column: 7/13;
     width: 100%;
     margin: 20px auto;
+    text-align: center;
 }
 
 .s4-car-layout .car-item-title{
     font-size: 1.5rem;
     font-weight: 800;
-    text-align: center;
     padding: 20px 10px;
 }
 
-/* .s4-car-layout .car-item-btn{
-    background: #FF5400;
+.s4-car-layout .car-item-btn{
+    /* background-color: #006639; */
+   
+    background-color: #213b73;
     padding: 20px 50px;
     text-align: center;
     width: 50%;
-    margin: 0 auto;
-} */
+    color: white;
+    font-weight: 900;
+    font-size: 1.3rem;
+    border: 0;
+    border-radius: 16px;
+}
+
+.s4-car-layout .car-item-btn:hover{
+     background-color: #006639;
+     transition: .5s;
+     
+}
+
 
 
 
@@ -745,14 +772,13 @@ body {
         grid-column: 1/13;
     }
 
+    .s4-car-layout .car-item-btn{
+        width: 60%;
+        font-size: 1rem;
+    }
 
 
-
-
-
-
-
-    /* section four responsive styles */
+    /* section five responsive styles */
 
     .s5-container {
         flex-direction: column;
