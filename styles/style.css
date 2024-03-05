@@ -168,7 +168,7 @@ body {
     color: #FFF;
     font-size: 1rem;
     font-weight: 700;
-    margin-top: 20px;
+  
 }
 
 .color-btn .color-btn-text {
@@ -484,7 +484,10 @@ body {
 .s5-form-container input {
     padding: 30px 10px;
     border: 0;
+}
 
+.s5-form-container .color-btn{
+    margin-top: 1.25rem;
 }
 
 .s5-img-container {
